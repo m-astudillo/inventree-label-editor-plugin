@@ -9,39 +9,43 @@
 	},
 	"javascript": {
 		"formatter": {
-			"quoteStyle": "single",
-			"jsxQuoteStyle": "single",
+			"quoteStyle": "double",
+			"jsxQuoteStyle": "double",
 			"trailingCommas": "none",
-			"indentStyle": "space"
+			"indentStyle": "space",
+			"lineWidth": 120
 		}
 	},
 	"linter": {
-    "rules": {
-		"suspicious" : {
-			"noExplicitAny": "off",
-			"noDoubleEquals": "off",
-			"noArrayIndexKey": "off",
-			"useDefaultSwitchClauseLast": "off"
-		},
-		"style": {
-			"noUselessElse": "off",
-			"noNonNullAssertion": "off",
-			"noParameterAssign": "off"
-		}, "correctness":{
-			"useExhaustiveDependencies": "off",
-			"useJsxKeyInIterable": "off",
-			"noUnsafeOptionalChaining": "off",
-			"noSwitchDeclarations": "off",
-			"noUnusedImports":"error"
-		}, "complexity": {
-			"noBannedTypes": "off",
-			"noExtraBooleanCast": "off",
-			"noForEach": "off",
-			"noUselessSwitchCase": "off",
-			"useLiteralKeys":"off"
-		}, "performance": {
-			"noDelete":"off"
+		"rules": {
+			"suspicious": {
+				"noExplicitAny": "off",
+				"noDoubleEquals": "off",
+				"noArrayIndexKey": "off",
+				"useDefaultSwitchClauseLast": "off"
+			},
+			"style": {
+				"noUselessElse": "off",
+				"noNonNullAssertion": "off",
+				"noParameterAssign": "off"
+			},
+			"correctness": {
+				"useExhaustiveDependencies": "off",
+				"useJsxKeyInIterable": "off",
+				"noUnsafeOptionalChaining": "off",
+				"noSwitchDeclarations": "off",
+				"noUnusedImports": "error"
+			},
+			"complexity": {
+				"noBannedTypes": "off",
+				"noExtraBooleanCast": "off",
+				"noForEach": "off",
+				"noUselessSwitchCase": "off",
+				"useLiteralKeys": "off"
+			},
+			"performance": {
+				"noDelete": "off"
+			}
 		}
 	}
-}
 }
